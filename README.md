@@ -1,4 +1,5 @@
-naked-wordpress
+SAimx-wordpress
 ===============
 
-A well-commented blank Wordpress theme.
+Adding submenu and creating html boiler plate
+
