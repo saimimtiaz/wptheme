@@ -1,4 +1,7 @@
-<h1>SAimx Theme</h1>
-<h2>General Settings</h2>
-
-<?php echo bloginfo('name'); ?>
+<h1>SAimx Theme Options</h1>
+<?php settings_errors(); ?>
+<form method="post" action="options.php">
+	<?php settings_fields( 'saimx-settings-group' ); ?>
+	<?php do_settings_sections( 'alecaddd_sunset' ); ?>
+	<?php submit_button(); ?>
+</form>

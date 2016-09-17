@@ -1,5 +1,5 @@
 SAimx-wordpress
 ===============
 
-Adding submenu and creating html boiler plate
-
+1) creating option form
+2) learn to store data inside the databse option field
